@@ -17,12 +17,12 @@ $(document).ready(function(){
 		//top
 		if ( event.which == 38 ) {
 			console.log('top');
-		    $('.player').css('right', (bottom_pos + step) + 'px');
+		    $('.player').css('bottom', (bottom_pos + step) + 'px');
 	        }
 		//bottom
 		if ( event.which == 40 ) {
 			console.log('bottom');
-		    $('.player').css('right', (bottom_pos - step) + 'px');
+		    $('.player').css('bottom', (bottom_pos - step) + 'px');
 		}
 	});
 })
