@@ -3,7 +3,7 @@ $(document).ready(function(){
 	$(document).keydown(function(event){
 		event.preventDefault();
 		var right_pos = parseInt($('.player').css('right'));
-
+		var bottom_pos = parseInt($('.player').css('bottom'));
 		//left
 		if ( event.which == 37 ) {
 			console.log('left');
@@ -17,11 +17,12 @@ $(document).ready(function(){
 		//top
 		if ( event.which == 38 ) {
 			console.log('top');
-		    $('.player').css('right', (right_pos + step) + 'px');
+		    $('.player').css('right', (bottom_pos + step) + 'px');
 	        }
 		//bottom
 		if ( event.which == 40 ) {
 			console.log('bottom');
-		    $('.player').css('right', (right_pos - step) + 'px');
+		    $('.player').css('right', (bottom_pos - step) + 'px');
+		}
 	});
 })
