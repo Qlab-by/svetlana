@@ -14,5 +14,14 @@ $(document).ready(function(){
 			console.log('right');
 		    $('.player').css('right', (right_pos - step) + 'px');
 		}
+		//top
+		if ( event.which == 38 ) {
+			console.log('top');
+		    $('.player').css('right', (right_pos + step) + 'px');
+	        }
+		//bottom
+		if ( event.which == 40 ) {
+			console.log('bottom');
+		    $('.player').css('right', (right_pos - step) + 'px');
 	});
 })
