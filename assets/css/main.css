@@ -1,0 +1,20 @@
+h1{
+	text-align: center; 
+}
+.field{
+	background: #3c3c3c;
+	width:500px;
+	height:500px;
+	margin: 0 auto;
+	position: relative;
+}
+
+.player{
+	background: red;
+	width:20px;
+	height:20px;
+	border-radius:20px;
+	position: absolute;
+	bottom:10px;
+	right:240px;
+}
