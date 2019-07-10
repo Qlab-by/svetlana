@@ -14,7 +14,7 @@ $(document).ready(function(){
 		//right
 		if ( event.which == 39 ) {
 			console.log('right');
-		 if(right_pos - step > 10)
+		 if(right_pos - step > 0)
 		    $('.player').css('right', (right_pos - step) + 'px');
 		}
 		//top
