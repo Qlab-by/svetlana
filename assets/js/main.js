@@ -8,7 +8,7 @@ $(document).ready(function(){
 		//left
 		if ( event.which == 37 ) {
 			console.log('left');
-		if(right_pos + step < 500)
+		if(right_pos + step < 490)
 		    $('.player').css('right', (right_pos + step) + 'px');
 		}
 		//right
