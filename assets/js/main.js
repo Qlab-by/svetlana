@@ -4,16 +4,11 @@ $(document).ready(function(){
 		event.preventDefault();
 		var right_pos = parseInt($('.player').css('right'));
 		var bottom_pos = parseInt($('.player').css('bottom'));
-		function frame() {
-			if (pos == 500) {
-				clearInterval(id);
-			}else {
-				pos++;
-				elem.style.top = pos + 'px';
-				elem.style.left = pos + 'px';
+
 		//left
 		if ( event.which == 37 ) {
 			console.log('left');
+		if(right_pos + step < 500)
 		    $('.player').css('right', (right_pos + step) + 'px');
 		}
 		//right
