@@ -20,7 +20,7 @@ $(document).ready(function(){
 		//top
 		if ( event.which == 38 ) {
 			console.log('top');
-			if(right_pos - step < 490)
+			if(right_pos + step < 490)
 		    $('.player').css('bottom', (bottom_pos + step) + 'px');
 	        }
 		//bottom
