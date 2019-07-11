@@ -20,13 +20,13 @@ $(document).ready(function(){
 		//top
 		if ( event.which == 38 ) {
 			console.log('top');
-			if(right_pos + step < 490)
+			if(bottom_pos + step < 490)
 		    $('.player').css('bottom', (bottom_pos + step) + 'px');
 	        }
 		//bottom
 		if ( event.which == 40 ) {
 			console.log('bottom');
-			if(right_pos - step > -10)
+			if(bottom_pos - step > -10)
 		    $('.player').css('bottom', (bottom_pos - step) + 'px');
 		}
 		
