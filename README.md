@@ -1,2 +1,2 @@
 # svetlana
-Svetlana's first project1
+Svetlana's first project
